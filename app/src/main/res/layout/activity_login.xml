@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/loginLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_with"
+        android:paddingTop="100dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        />
+
+    <Button
+        android:id="@+id/emailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:onClick="emailLogin"
+        android:layout_below="@id/loginLabel"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/facebookButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/facebook"
+        android:onClick="facebookLogin"
+        android:layout_below="@id/emailButton"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

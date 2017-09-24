@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">candidate</string>
+    <string name="login_with">Login With:</string>
+    <string name="email">Email</string>
+    <string name="facebook">Facebook</string>
+    <string name="login_failed">Login Failed</string>
+
+    <string name="empty_state">No Chat History.\nSay something</string>
+</resources>
