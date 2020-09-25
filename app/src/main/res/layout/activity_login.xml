@@ -3,37 +3,56 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <TextView
         android:id="@+id/loginLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login_with"
-        android:paddingTop="100dp"
-        android:paddingBottom="10dp"
         android:paddingStart="20dp"
+        android:paddingTop="100dp"
         android:paddingEnd="20dp"
-        />
+        android:paddingBottom="10dp"
+        android:text="@string/login_with" />
 
     <Button
         android:id="@+id/emailButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/email"
-        android:onClick="emailLogin"
         android:layout_below="@id/loginLabel"
-        android:padding="10dp"
+        android:layout_centerHorizontal="true"
         android:layout_margin="5dp"
-        android:layout_centerHorizontal="true"/>
+        android:onClick="emailLogin"
+        android:padding="10dp"
+        android:text="@string/email" />
 
     <Button
         android:id="@+id/facebookButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/facebook"
-        android:onClick="facebookLogin"
         android:layout_below="@id/emailButton"
-        android:padding="10dp"
+        android:layout_centerHorizontal="true"
         android:layout_margin="5dp"
-        android:layout_centerHorizontal="true"/>
+        android:onClick="facebookLogin"
+        android:padding="10dp"
+        android:text="@string/facebook" />
+
+    <Button
+        android:id="@+id/googleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/facebookButton"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:onClick="googleLogin"
+        android:padding="10dp"
+        android:text="@string/google" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:layout_centerInParent="true" />
 
 </RelativeLayout>

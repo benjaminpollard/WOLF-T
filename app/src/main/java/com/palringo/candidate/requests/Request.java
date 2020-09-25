@@ -8,11 +8,12 @@ import org.json.JSONObject;
 
 abstract public class Request {
 
-    private static final String KEY_BODY = "body";
-    private static final String KEY_NAME = "name";
+    protected static final String KEY_BODY = "body";
+    protected static final String KEY_NAME = "name";
 
     /**
      * Returns the name/command of this request.
+     *
      * @return Name/command of the request.
      */
     abstract public String getName();

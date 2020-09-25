@@ -1,19 +1,19 @@
-package com.palringo.candidate.chat;
+package com.palringo.candidate.chat.models;
 
-class ChatItem {
+public class ChatItem {
     private String avatarUrl;
     private String message;
 
-    ChatItem(String avatarUrl, String message) {
+    public ChatItem(String avatarUrl, String message) {
         this.avatarUrl = avatarUrl;
         this.message = message;
     }
 
-    String getAvatarUrl() {
+    public String getAvatarUrl() {
         return avatarUrl;
     }
 
-    String getMessage() {
+    public String getMessage() {
         return message;
     }
 }

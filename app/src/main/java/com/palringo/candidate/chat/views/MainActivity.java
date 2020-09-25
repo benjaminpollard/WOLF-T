@@ -1,10 +1,11 @@
-package com.palringo.candidate;
+package com.palringo.candidate.chat.views;
 
-import androidx.fragment.app.FragmentTransaction;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.palringo.candidate.chat.ChatFragment;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
+
+import com.palringo.candidate.R;
 
 public class MainActivity extends AppCompatActivity {
 
